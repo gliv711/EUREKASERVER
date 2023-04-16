@@ -6,7 +6,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @SpringBootApplication
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @EnableEurekaServer
 public class EurekaServerApplication {
 
